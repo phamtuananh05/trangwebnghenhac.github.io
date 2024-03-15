@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #192536;
+}
+
+header {
+    height: 60px;
+    background: #21324a;
+    display: flex;
+}
+
+header img {
+    padding-top: 5px;
+    margin-left: 300px;
+}
+
+.search {
+    margin-left: 150px;
+    line-height: 60px;
+}
+
+.search input {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.search button {
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.suggest {
+    display: flex;
+    line-height: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+.suggest a {
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Averta-Bold;
+    text-decoration: none;
+}
+
+.login {
+    margin-left: 250px;
+}
+
+.login a {
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Averta-Bold;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.login a:hover {
+    background: rgb(201, 105, 70);
+}
+
+nav {
+    height: 40px;
+    background: #21324a;
+    margin-top: 2px;
+}
+
+nav .menu {
+    display: flex;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 300px;
+}
+
+.menu a:hover {
+    color: aqua;
+}
+
+.menu a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #829799;
+}
+
+.menu .sub-menu {
+    position: absolute;
+    background: #fff;
+    display: none;
+    list-style: none;
+}
+
+.menu .sub-menu a {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.menu .sub-menu a:hover {
+    color: rgb(28, 7, 211);
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+
+section {
+    margin-top: 30px;
+    margin-left: 19%;
+}
+
+section a {
+    padding: 10px;
+}
+
+main h2 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+marquee {
+    margin: 0px auto;
+    margin-left: 375px;
+    margin-right: 372px;
+    margin-top: 20px;
+}
+
+marquee a {
+    padding: 0 10px;
+}
+
+article {
+    list-style: none;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+article a {
+    display: list-item;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    padding-top: 5px;
+}
+article .new-list a:hover{
+    color: rgb(21, 160, 102);
+}
+article .new-list img:hover{
+    transform: scale(1.1);
+}
+
+article .new-list {
+    display: flex;
+}
+article .new-list .new-items img {
+    width: 273px;
+    height: 200px;
+    margin-right: 22px;
+}
+article .album {
+    height: 40px;
+    display: flex;
+    line-height: 40px;
+    padding: 20px 0px;
+}
+article .album .id1 {
+    font-size: 35px;
+    color: #fff;
+    margin-right: 50px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+article .album .id2 {
+    font-size: 17px;
+    color: #fff;
+    margin-right: 15px;
+    border-bottom: 2px solid #fff;
+    font-weight: 600;
+}
+article .album .id3 {
+    font-size: 17px;
+    color: #829799;
+}
+article .album  a:hover  {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+article .new-list2 a:hover{
+    color: rgb(21, 160, 102);
+}
+article .new-list2 a {
+    display: list-item;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    padding-top: 5px;
+}
+
+article .new-list2 {
+    display: flex;
+}
+
+article .new-list2 .new-items2 img {
+    width: 273px;
+    height: 200px;
+    margin-right: 22px;
+    padding-top: 20px;
+}
+article .new-list2 img:hover{
+    transform: scale(1.1);
+}
+footer{
+    background: #21324a;
+    display: flex;
+    height: 160px;
+    margin-top: 50px;
+}
+.tt{
+    margin-left: 80px;
+    margin-right: 90px;
+    margin-top: 40px;
+}
+.tt a:hover{
+    color: aqua;
+}
+.tt ul{
+    list-style: none;
+}
+.tt h3{
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 10px;
+}
+.tt a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+.contact{
+    margin-top: 40px;
+}
+.contact h3{
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 10px;
+}
+.contact img{
+    height: 50px;
+}
+.ten{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 850px;
+    font-weight: 600;
+    color: #0e0101d0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+}
